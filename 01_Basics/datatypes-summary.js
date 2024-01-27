@@ -29,3 +29,36 @@ console.log(typeof bigNumber);
 //Read and study:-
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+
+//types of memory :-
+// 1. Stack
+// Used in primitive datatype.
+
+// 2. Heap
+// Used in non primitive or reference datatype.
+
+let myBaseName = "VNITBase"
+
+let anotherName = "myBaseName"
+anotherName = "VNITVoice"
+
+console.log(myBaseName);
+console.log(anotherName);
+
+let userOne = {
+    email: "Vasishth@yahoo.com",
+    upi : "8768454@ybl"
+}
+
+let userTwo = userOne
+let userthree = userTwo
+
+userTwo.email = "Vasishth@gmail.com"
+userThree.email = "hvgfdtykgdvcy@yahoo.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userThree.email);
