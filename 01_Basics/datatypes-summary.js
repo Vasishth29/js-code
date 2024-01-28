@@ -15,9 +15,11 @@ let myObj = {
 }
 
 //function:-
-const myFunction = function(){
+let myFunction = function(){
     console.log("Hare Krishna");
 }
+
+console.log(myFunction);
 
 //How to find Datatype:-
 console.log(typeof bigNumber);
@@ -45,8 +47,8 @@ let myBaseName = "VNITBase"
 let anotherName = "myBaseName"
 anotherName = "VNITVoice"
 
-console.log(myBaseName);
-console.log(anotherName);
+// console.log(myBaseName);
+// console.log(anotherName);
 
 let userOne = {
     email: "Vasishth@yahoo.com",
@@ -59,6 +61,6 @@ let userthree = userTwo
 userTwo.email = "Vasishth@gmail.com"
 userThree.email = "hvgfdtykgdvcy@yahoo.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
-console.log(userThree.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+// console.log(userThree.email);
